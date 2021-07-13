@@ -30,7 +30,7 @@ jobs:
           cache: 'npm'
 
       - run: npm ci
-      - run: hugo --minify --baseUrl='https://jweaver85.github.io/hugo-docsy-example/'
+      - run: hugo --minify --baseUrl='https://jweaver85.github.io/docsy-example-clone/'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
